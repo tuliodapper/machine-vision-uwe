@@ -1,0 +1,40 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ProcessImage]
+Class="Function"
+Prototype="void ProcessImage(int DisplayorSave, int FixedOrMinMax);"
+
+[QuitProgram]
+Class="Function"
+Prototype="int QuitProgram(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ThresholdValue]
+Class="Function"
+Prototype="int ThresholdValue(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[File]
+Class="Function"
+Prototype="int File(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Display]
+Class="Function"
+Prototype="int Display(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Save]
+Class="Function"
+Prototype="int Save(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Display2]
+Class="Function"
+Prototype="int Display2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Save2]
+Class="Function"
+Prototype="int Save2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

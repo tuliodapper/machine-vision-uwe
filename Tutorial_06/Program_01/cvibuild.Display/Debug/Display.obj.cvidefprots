@@ -1,0 +1,32 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ProcessImage]
+Class="Function"
+Prototype="void ProcessImage(int inOperation);"
+
+[QuitProgram]
+Class="Function"
+Prototype="int QuitProgram(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayImage]
+Class="Function"
+Prototype="int DisplayImage(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Erosion4]
+Class="Function"
+Prototype="int Erosion4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Erosion8]
+Class="Function"
+Prototype="int Erosion8(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Boundary4]
+Class="Function"
+Prototype="int Boundary4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

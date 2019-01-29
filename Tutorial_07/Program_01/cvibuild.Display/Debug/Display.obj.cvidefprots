@@ -1,0 +1,52 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[conv]
+Class="Function"
+Prototype="int conv(int i, int j, int mask[3][3]);"
+
+[ProcessImage]
+Class="Function"
+Prototype="void ProcessImage(int inOperation);"
+
+[QuitProgram]
+Class="Function"
+Prototype="int QuitProgram(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayImage]
+Class="Function"
+Prototype="int DisplayImage(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Vertical]
+Class="Function"
+Prototype="int Vertical(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Horizontal]
+Class="Function"
+Prototype="int Horizontal(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Diagonal1]
+Class="Function"
+Prototype="int Diagonal1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Diagonal2]
+Class="Function"
+Prototype="int Diagonal2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[KirschOperators]
+Class="Function"
+Prototype="int KirschOperators(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GeneralLaplacian]
+Class="Function"
+Prototype="int GeneralLaplacian(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GeneralSobel]
+Class="Function"
+Prototype="int GeneralSobel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,36 @@
+[mark4]
+Class="Function"
+Prototype="void mark4(int value, int iseed, int jseed);"
+
+[mark8]
+Class="Function"
+Prototype="void mark8(int value, int iseed, int jseed);"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[ProcessImage]
+Class="Function"
+Prototype="void ProcessImage(int inOperation);"
+
+[QuitProgram]
+Class="Function"
+Prototype="int QuitProgram(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayImage]
+Class="Function"
+Prototype="int DisplayImage(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Segmentation4]
+Class="Function"
+Prototype="int Segmentation4(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Segmentation8]
+Class="Function"
+Prototype="int Segmentation8(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitProgram]
+Class="Function"
+Prototype="int QuitProgram(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Load]
+Class="Function"
+Prototype="int Load(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Display]
+Class="Function"
+Prototype="int Display(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Save]
+Class="Function"
+Prototype="int Save(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
