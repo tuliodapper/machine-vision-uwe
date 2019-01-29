@@ -1,2 +1,2 @@
-# machine-vision-uwe
-Assignment for Machine Vision course in UWE-Bristol.
+# machinevision-uwe
+Assignment for the Machine Vision course in UWE-Bristol.
